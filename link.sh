@@ -1,3 +1,4 @@
+cp ../$1/target/armv5te-unknown-linux-gnueabi/release/*.a base-objs/app.a && \
 arm-none-eabi-gcc \
   -Wl,-nmagic -nostdlib -pie  \
   -T base-objs/app.ld \
@@ -7,7 +8,7 @@ arm-none-eabi-gcc \
   base-objs/strerror.o \
   base-objs/vasyslog.o \
   base-objs/tlsf.o \
-  base-objs/app.o \
+  base-objs/app.a \
   base-objs/ev3api.o \
   base-objs/ev3api_battery.o \
   base-objs/ev3api_brick.o \

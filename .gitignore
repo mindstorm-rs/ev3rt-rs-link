@@ -1,2 +1,3 @@
 app
 base-objs/app.o
+base-objs/app.a
