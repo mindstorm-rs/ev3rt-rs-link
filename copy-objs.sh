@@ -10,6 +10,7 @@ cp \
   ../ev3rt-hrp2/sdk/OBJ/ev3api_sensor.o \
   ../ev3rt-hrp2/sdk/OBJ/ev3api_speaker.o \
   ../ev3rt-hrp2/sdk/OBJ/ev3api.o \
+  ../ev3rt-hrp2/sdk/OBJ/bluetooth-agent.o \
   ../ev3rt-hrp2/sdk/OBJ/module_cfg.o \
   ../ev3rt-hrp2/sdk/OBJ/strerror.o \
   ../ev3rt-hrp2/sdk/OBJ/tlsf.o \

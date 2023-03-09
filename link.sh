@@ -9,6 +9,7 @@ arm-none-eabi-gcc \
   base-objs/vasyslog.o \
   base-objs/tlsf.o \
   base-objs/app.a \
+  base-objs/bluetooth-agent.o \
   base-objs/ev3api.o \
   base-objs/ev3api_cfg.o \
   base-objs/ev3api_battery.o \
